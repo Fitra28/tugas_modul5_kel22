@@ -6,7 +6,7 @@ import axios from "axios";
 
 const BASE_API_URL = "https://pokeapi.co/api/v2/pokemon";
 const POKEMONS_PER_PAGE = 10;
-const TOTAL_PAGES = 2;
+const TOTAL_PAGES = 2; 
 
 function App() {
   const [pokemonData, setPokemonData] = useState([]);
